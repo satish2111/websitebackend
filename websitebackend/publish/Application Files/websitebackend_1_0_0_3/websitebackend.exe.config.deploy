@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+ 
+  </configSections>
+  <appSettings>
+    <add key="filepath" value="E:\software\db\publishweb\clientimages\" />
+  </appSettings>
+  <connectionStrings>
+    <add name="CN" connectionString="Data Source=.; Initial Catalog= website; User Id= sa;Password=sql#2008"/>
+  </connectionStrings>
+  <system.windows.forms jitDebugging="true"/>
+<startup><supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/></startup></configuration>

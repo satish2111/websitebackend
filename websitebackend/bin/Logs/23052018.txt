@@ -1,0 +1,23 @@
+===================================
+File name clsSqlHelper
+Method name blnCloseConnection
+Message : Failed to Close Connection
+Execption Source: mscorlib
+Execption StackTrace:    at System.WeakReference.set_Target(Object value)
+   at System.Data.SqlClient.TdsParserStateObject.set_Owner(Object value)
+   at System.Data.SqlClient.TdsParser.PutSession(TdsParserStateObject session)
+   at System.Data.SqlClient.TdsParserStateObject.CloseSession()
+   at System.Data.SqlClient.SqlDataReader.TryCloseInternal(Boolean closeReader)
+   at System.Data.SqlClient.SqlDataReader.Close()
+   at HelperLibrary.clsSqlHelper.blnCloseConnection()
+Execption Message: System.InvalidOperationException: Handle is not initialized.
+   at System.WeakReference.set_Target(Object value)
+   at System.Data.SqlClient.TdsParserStateObject.set_Owner(Object value)
+   at System.Data.SqlClient.TdsParser.PutSession(TdsParserStateObject session)
+   at System.Data.SqlClient.TdsParserStateObject.CloseSession()
+   at System.Data.SqlClient.SqlDataReader.TryCloseInternal(Boolean closeReader)
+   at System.Data.SqlClient.SqlDataReader.Close()
+   at HelperLibrary.clsSqlHelper.blnCloseConnection()
+Inner Execption: 
+Execption Message: Handle is not initialized.
+====================================

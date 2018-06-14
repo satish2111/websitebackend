@@ -1,0 +1,21 @@
+===================================
+File name clsSqlHelper
+Method name blnCloseConnection
+Message : Failed to Close Connection
+Execption Source: System.Data
+Execption StackTrace:    at System.Data.ProviderBase.DbConnectionInternal.PrePush(Object expectedOwner)
+   at System.Data.ProviderBase.DbConnectionPool.PutObject(DbConnectionInternal obj, Object owningObject)
+   at System.Data.ProviderBase.DbConnectionInternal.CloseConnection(DbConnection owningObject, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.CloseInnerConnection()
+   at System.Data.SqlClient.SqlConnection.Close()
+   at HelperLibrary.clsSqlHelper.blnCloseConnection() in E:\satish\HelperLibrary\HelperLibrary\clsSqlHelper.cs:line 137
+Execption Message: System.InvalidOperationException: Internal .Net Framework Data Provider error 1.
+   at System.Data.ProviderBase.DbConnectionInternal.PrePush(Object expectedOwner)
+   at System.Data.ProviderBase.DbConnectionPool.PutObject(DbConnectionInternal obj, Object owningObject)
+   at System.Data.ProviderBase.DbConnectionInternal.CloseConnection(DbConnection owningObject, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.CloseInnerConnection()
+   at System.Data.SqlClient.SqlConnection.Close()
+   at HelperLibrary.clsSqlHelper.blnCloseConnection() in E:\satish\HelperLibrary\HelperLibrary\clsSqlHelper.cs:line 137
+Inner Execption: 
+Execption Message: Internal .Net Framework Data Provider error 1.
+====================================
