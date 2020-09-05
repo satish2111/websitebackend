@@ -128,7 +128,7 @@ namespace websitebackend
                     massage.Subject = "Recall Password";
                     client.EnableSsl = true;
                     client.DeliveryMethod = SmtpDeliveryMethod.Network;
-                    client.Credentials = new System.Net.NetworkCredential("satishsharma678@gmail.com", "satish14@");
+                    client.Credentials = new System.Net.NetworkCredential("email-id", "password");
                     client.Send(massage);
                     AutoClosingMessage.AutoClosingMessageBox.Show("Please Check Your Mail For Password", "Massage", 4000);
                     forgotpanel.Visible = false;
